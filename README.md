@@ -10,3 +10,6 @@ This CI is triggerd when there is a **push** or **pull request** onto main branc
 - Install depencies.
 - Run test cases.
 - Build app.
+
+### Suggested workflow
+If git workflow is used, only pull request event is recommended because after merged the pipeline will be triggered twice due to push event.
